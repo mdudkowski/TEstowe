@@ -1,0 +1,91 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="Flat File Connection Manager"
+  DTS:DTSID="{09015D27-0E8E-4328-8B5B-291B559829F4}"
+  DTS:CreationName="FLATFILE">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:Format="RaggedRight"
+      DTS:LocaleID="1045"
+      DTS:HeaderRowDelimiter="_x000D__x000A_"
+      DTS:RowDelimiter="_x000A_"
+      DTS:TextQualifier="_x003C_none_x003E_"
+      DTS:CodePage="1250"
+      DTS:ConnectionString="D:\Users\michal.dudkowski\source\repos\Project2MPG\Project2MPG\auto-mpg.txt">
+      <DTS:FlatFileColumns>
+        <DTS:FlatFileColumn
+          DTS:ColumnDelimiter=""
+          DTS:ColumnWidth="7"
+          DTS:MaximumWidth="50"
+          DTS:DataType="130"
+          DTS:ObjectName="mpg"
+          DTS:DTSID="{1577EFDF-8B1E-4032-B7A0-3F61B32B1BD6}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnDelimiter=""
+          DTS:ColumnWidth="4"
+          DTS:MaximumWidth="50"
+          DTS:DataType="130"
+          DTS:ObjectName="cylinders"
+          DTS:DTSID="{04B1FB23-AB0F-4597-90C5-6FCFF2462E5C}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnDelimiter=""
+          DTS:ColumnWidth="11"
+          DTS:MaximumWidth="50"
+          DTS:DataType="130"
+          DTS:ObjectName="displacement"
+          DTS:DTSID="{A8945BCE-E13E-40D1-97F0-BA9BD65691B7}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnDelimiter=""
+          DTS:ColumnWidth="11"
+          DTS:MaximumWidth="50"
+          DTS:DataType="130"
+          DTS:ObjectName="hp"
+          DTS:DTSID="{E6A1ED8B-821C-4E7A-AFE6-29D064BB6CF8}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnDelimiter=""
+          DTS:ColumnWidth="11"
+          DTS:MaximumWidth="50"
+          DTS:DataType="130"
+          DTS:ObjectName="weight"
+          DTS:DTSID="{CFE98D0D-26BA-4DB3-8683-4CC9752519A8}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnDelimiter=""
+          DTS:ColumnWidth="7"
+          DTS:MaximumWidth="50"
+          DTS:DataType="130"
+          DTS:ObjectName="acc"
+          DTS:DTSID="{C897FDBE-0045-4ACF-BFAF-FC2528391142}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnDelimiter=""
+          DTS:ColumnWidth="4"
+          DTS:MaximumWidth="50"
+          DTS:DataType="130"
+          DTS:ObjectName="year"
+          DTS:DTSID="{3A71B92A-B4C4-4553-B7DB-2E217609DB2C}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnDelimiter=""
+          DTS:ColumnWidth="1"
+          DTS:MaximumWidth="50"
+          DTS:DataType="130"
+          DTS:ObjectName="origin"
+          DTS:DTSID="{AB1EE7B1-2906-40EB-8F1D-34F70F88CCF7}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x000A_"
+          DTS:MaximumWidth="50"
+          DTS:DataType="130"
+          DTS:ObjectName="car name"
+          DTS:DTSID="{3F1CDB3F-9E20-4FD8-B4E1-9551EDCAF0C6}"
+          DTS:CreationName="" />
+      </DTS:FlatFileColumns>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
